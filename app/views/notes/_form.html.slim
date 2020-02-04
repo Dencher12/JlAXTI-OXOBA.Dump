@@ -19,7 +19,11 @@
     = f.label :body
     br
     = f.text_area :body
-
+    
+  p Attachments:
+  .links
+     = link_to_add_association 'add attachment', f, :attachments
+     
   div class="actions"
     br
     = f.submit

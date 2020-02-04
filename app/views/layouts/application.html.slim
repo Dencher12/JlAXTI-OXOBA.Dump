@@ -4,6 +4,7 @@ html
     = csrf_meta_tags
     = csp_meta_tag
 
+    = javascript_include_tag "application"
     = stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload'
     = javascript_pack_tag 'application', 'data-turbolinks-track': 'reload'
 
@@ -12,3 +13,7 @@ html
       img src="#{ asset_path('Alexander-Nevsky.jpg') }" width="200px"
       span.page-title JlAXTI-OXOBA.Dump
     = yield
+
+    hr
+    
+    .home-link = link_to 'Home', welcome_index_path
