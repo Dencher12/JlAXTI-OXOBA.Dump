@@ -1,0 +1,12 @@
+.cell {
+  margin: 10px;
+  word-wrap: break-word
+}
+
+.cell.title {
+  max-width: 300px;
+}
+
+.cell.body {
+  max-width: 600px;
+}

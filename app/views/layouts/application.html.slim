@@ -1,0 +1,14 @@
+html
+  head
+    title JlAXTIOxobaDump
+    = csrf_meta_tags
+    = csp_meta_tag
+
+    = stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload'
+    = javascript_pack_tag 'application', 'data-turbolinks-track': 'reload'
+
+  body
+    footer
+      img src="/assets/Alexander-Nevsky.jpg" width="200px"
+      span.page-title JlAXTI-OXOBA.Dump
+    = yield
