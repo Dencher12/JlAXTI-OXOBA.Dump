@@ -10,10 +10,9 @@ html
 
   body
     footer
-      img src="#{ asset_path('Alexander-Nevsky.jpg') }" width="200px"
-      span.page-title JlAXTI-OXOBA.Dump
+    .home-link = link_to welcome_index_path do
+      img src="#{ asset_path('Alexander-Nevsky.png') }" width="75px"
+      
+    span.page-title JlAXTI-OXOBA.Dump
     = yield
 
-    hr
-    
-    .home-link = link_to 'Home', welcome_index_path
