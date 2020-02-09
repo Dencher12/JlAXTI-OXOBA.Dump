@@ -1,5 +1,6 @@
 .nested-fields
   .field.file-field   
-      = f.file_field :file, { multiple: true, class: 'form-control-file' }
-      .drop-label Drop Here
+    = f.file_field :file, class: 'form-control-file'
+    .drop-label Drop Here
+      
   = link_to_remove_association "remove attachment", f
