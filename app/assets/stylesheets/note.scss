@@ -46,6 +46,6 @@ body {
   height: 50px;
 }
 
-.attachment-cell {
-  word-break: break-all;
+td {
+  hyphens: auto;
 }
