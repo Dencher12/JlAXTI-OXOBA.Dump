@@ -3,6 +3,6 @@ tr class="table-dark"
     .cell.title = note.title
   td 
     .cell.body = note.body
-  td
+  td class="attachment-cell"
     - note.attachments.each do |a|
       div = link_to a.file.identifier, a.file.url 
