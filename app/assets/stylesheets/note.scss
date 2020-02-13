@@ -46,6 +46,6 @@ body {
   height: 50px;
 }
 
-td {
-  hyphens: auto;
+.titile-cell, .body-cell {
+  word-break: break-all;
 }
