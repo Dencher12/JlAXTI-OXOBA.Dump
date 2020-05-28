@@ -8,7 +8,7 @@
 
 .page-title {
   vertical-align: top;
-  margin: 20px;
+  margin: 20px 0 20px 20px;
   display: inline;
   font-size: 40px;
 }
@@ -25,4 +25,9 @@ footer {
   width: 75px;
   display: inline-block;
   margin: 5px ;
+}
+
+.nevski-play {
+  vertical-align: top;
+  margin-top: 5px;
 }

@@ -1,3 +1,3 @@
 class FileUploader < CarrierWave::Uploader::Base
-  include Cloudinary::CarrierWave
+  storage :file
 end
