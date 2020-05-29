@@ -1,9 +1,6 @@
-tr class="table-dark"
-  td class="titile-cell"
-    .cell.title = note.title
-  td class="body-cell"
-    .cell.body = note.body
-  td
-    ul
-      - note.attachments.each do |a|
-        li = link_to 'download', a.file.url 
+.note
+  .note-title = note.title
+  .note-body = note.body
+  ul.attachments
+    - note.attachments.each do |a|
+      li = link_to 'download', a.file.url

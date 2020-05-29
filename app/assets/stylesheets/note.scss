@@ -1,21 +1,35 @@
-* { font-size: 20px }
+* { font-size: 30px }
+
+.note-page-title {
+  font-size: 45px;
+  margin-left: 5px;
+}
+
+.note {
+  border: 2px solid #839496;
+  margin: 5px;
+  border-radius: 5px;
+}
+
+.note:hover {
+  background: #001a21;
+}
+
+.note-title {
+  font-size: 35px;
+}
+
+.note-title, .note-body, .attachments {
+  margin: 0 0 0 5px;
+}
+
+.note-body, .attachments{
+  display: none;
+}
 
 body {
   color:#839496;
   background: #002B36;
-}
-
-.cell {
-  margin: 10px;
-  word-wrap: break-word
-}
-
-.cell.title {
-  max-width: 300px;
-}
-
-.cell.body {
-  max-width: 600px;
 }
 
 .form-control{
