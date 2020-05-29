@@ -10,12 +10,10 @@ $(document).ready(function(){
     });
 
     button.mouseenter(function(e) {
-        console.log("FUCK");
         button.attr('src', '/assets/music2.png');
     });
 
     button.mouseleave(function(e) {
-        console.log("FUCK");
         button.attr('src', '/assets/music.png');
     });
 });
