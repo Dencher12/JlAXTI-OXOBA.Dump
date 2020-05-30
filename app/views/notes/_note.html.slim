@@ -3,4 +3,4 @@
   .note-body = note.body
   ul.attachments
     - note.attachments.each do |a|
-      li = link_to 'download', a.file.url
+      li = link_to a.file.identifier, a.file.url
