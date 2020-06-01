@@ -1,24 +1,17 @@
-# README
-
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+1) Заходишь на http://lahtyuhova-dump.ddns.net
+2) Нажимаешь на кнопку ноты рядом с названием
+3) Наслаждаешься
+4) Нажимаешь на Note list
+5) Нажимаешь на Sabaton
+5) Выбираешь любой трек
+6) Наслаждаешься
+7) Нажимаешь на Невского
+8) Нажимаешь на New Note
+9) Заполняешь поля:
+     title - название
+     body - описание(опционально)
+10) Нажимаешь на add attachment(опционально)
+11) Перетаскиваешь в поле что-нибудь классное(музычку например)(опционально)
+12) Нажимаешь на Create Note
+13) Наслаждаешься и ждешь обнов
+     
